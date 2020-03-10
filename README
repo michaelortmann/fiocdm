@@ -1,0 +1,42 @@
+Description:
+
+  fiocdm is a reproducing CrystalDiskMark with fio tool.
+
+  Compatible with python 2 and 3.
+
+Usage:
+
+  fiocdm <path>
+
+Example:
+
+  Transcend JetFlash 910 256GB TS256GJF910
+
+  $ fiocdm.py /mnt/
+              Read [MB/s] Write [MB/s]
+  SEQ1MQ8T1       400.239      402.316
+  SEQ1MQ1T1       401.719      385.245
+  RND512KQ1T1     319.836       84.083
+  RND4KQ32T16      21.594       15.120
+  RND4KQ1T1        15.555       13.503
+
+  Compare with https://ru.gecid.com/storag/transcend_jetflash_910/?s=1
+
+License:
+
+  MIT License
+  Copyright (c) 2020 Michael Ortmann
+
+Website:
+
+  https://gitlab.com/mortmann/fiocdm
+
+Links and Thanks to everyone involved there:
+
+  https://crystalmark.info/en/
+  https://blog.docbert.org/flash-testing-tools-crystaldiskmark/
+  https://github.com/buty4649/fio-cdm
+  https://github.com/ShellingfordX/fio_to_crystaldiskmark.sh
+
+Enjoy,
+Michael
